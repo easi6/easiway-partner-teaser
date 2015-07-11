@@ -1,0 +1,22 @@
+{
+  "msg_drive": "DRIVE",
+  "msg_help": "HELP",
+  "msg_current_lang": "English",
+  "msg_download": "DOWNLOAD",
+  "msg_howitworks": "How easiway works",
+  "msg_pickup": "Pick up",
+  "msg_crossingborder": "Crossing border",
+  "msg_dropoff": "Drop off",
+  "msg_pickup_detail": "There you are. meet me here",
+  "msg_crossingborder_detail": "Sit tight until you get there",
+  "msg_dropoff_detail": "Ready & Go",
+  "msg_carousel_title_1": "Easy Connection",
+  "msg_carousel_title_2": "Easy to book a ride",
+  "msg_carousel_title_3": "Easy to pay",
+  "msg_carousel_detail_1": "between hong kong and shenzen with easiway",
+  "msg_carousel_detail_2": "Just need to select date, time and location.<br>Your driver will come to you at a scheduled date and time",
+  "msg_carousel_detail_3": "Easiway offers various ways to make your payment",
+  "msg_howitworks_detail": "Just book a ride, and at a scheduled date, an Easiway van will be at your door ready to take you wherever you need to go even crossing border between Hong Kong and Shenzen.",
+  "msg_fare_warning": "Our fare is different depense on area by distance. Click below for more detail.",
+  "msg_fare_table": "Fare table"
+}

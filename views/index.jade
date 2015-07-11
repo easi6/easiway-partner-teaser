@@ -1,0 +1,120 @@
+doctype html
+
+html
+  head
+    title easiway
+    link(rel="stylesheet",type="text/css",href="css/reset.css")
+    link(rel="stylesheet",type="text/css",href="css/font_kr.css")
+    link(rel="stylesheet",type="text/css",href="css/main.css")
+    link(rel="stylesheet",type="text/css",href="css/carousel.css")
+    meta(charset="utf8")
+    link(rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png")
+    link(rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png")
+    link(rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png")
+    link(rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png")
+    link(rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png")
+    link(rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png")
+    link(rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png")
+    link(rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png")
+    link(rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png")
+    link(rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32")
+    link(rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192")
+    link(rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96")
+    link(rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16")
+    link(rel="manifest" href="/manifest.json")
+    meta(name="msapplication-TileColor" content="#00aba9")
+    meta(name="msapplication-TileImage" content="/mstile-144x144.png")
+    meta(name="theme-color" content="#ffffff")
+  body
+    #navbar
+      h1.logo easiway
+      ul.navbar-menu
+        li.menu-item
+          a#msg_drive(href="#drive") DRIVE
+        li.menu-item
+          a#msg_help(href="#help") HELP
+        li.menu-item.dropdown(style="position: relative;")
+          a#msg_current_lang(href="").caret English
+          ul.navbar-submenu
+            li.menu-item
+              a.i18n(href="#en") English
+            li.menu-item
+              a.i18n(href="#zh_Hans") 简体字
+            li.menu-item
+              a.i18n(href="#zh_Hant") 繁體字
+            li.menu-item
+              a.i18n(href="#ko") 한국어
+            li.menu-item
+              a.i18n(href="#ja") 日本語
+        li.menu-item
+          a.msg_download.download(href="#download") DOWNLOAD
+    #container
+      .page#drive
+        .loader-wrapper
+          img.loader(src="img/ajax-loader.gif")
+          p Loading movie clip...
+      .page#help
+        .carousel-wrapper
+          .jcarousel
+            ul
+              li
+                .bg(style="background: url(img/site_carousel_img1.jpg) no-repeat;")
+                .text
+                  h2#msg_carousel_title_1 Easy Connection
+                  p#msg_carousel_detail_1 between hong kong and shenzen with easiway
+              li
+                .bg(style="background: url(img/site_carousel_img2.jpg) no-repeat;")
+                .text
+                  h2#msg_carousel_title_2 Easy to book a ride
+                  p#msg_carousel_detail_2
+                    | Just need to select date, time and location.
+                    br
+                    | Your driver will come to you at a scheduled date and time
+              li
+                .bg(style="background: url(img/site_carousel_img3.jpg) no-repeat;")
+                .text
+                  h2#msg_carousel_title_3 Easy to pay
+                  p#msg_carousel_detail_3 Easiway offers various ways to make your payment
+          .jcarousel-pagination
+        .description
+          .bg
+            .stripe.big(style="background-color: #eef6f2")
+            .stripe(style="background-color: #d9ebe5")
+            .stripe(style="background-color: #b1d9cd")
+            .stripe(style="background-color: #d9ebe5; height: 200px;")
+          .text
+            h2#msg_howitworks How easiway works
+            p#msg_howitworks_detail Just book a ride, and at a scheduled date, an Easiway van will be at your door ready to take you wherever you need to go even crossing border between Hong Kong and Shenzen.
+            div
+              img(src="img/eng1.png").col
+              img(src="img/eng3.png").col
+              ul.col(style="margin-top: 20px;")
+                li
+                  h4#msg_pickup(style="background-image: url(/img/icn_number1.png);") Pick up
+                  p#msg_pickup_detail There you are. meet me here
+                li
+                  h4#msg_crossingborder(style="background-image: url(/img/icn_number2.png);") Crossing border
+                  p#msg_crossingborder_detail Sit tight until you get there
+                li
+                  h4#msg_dropoff(style="background-image: url(/img/icn_number3.png); margin-top: 40px;") Drop off
+                  p#msg_dropoff_detail Ready & Go
+            p.fare-warning 
+              span#msg_fare_warning Our fare is different depense on area by distance. Click below for more detail. 
+              br
+              a.fare-button#msg_fare_table(target="_top", href="/fare.html") Fare table
+      .footer.stripe(style="background-color: #76c2a8")
+        .links
+          a.text-hide(href="mailto: easiway@easi-share.com").email email
+          a.text-hide(href="#").fb facebook
+          a.text-hide(href="#").tw twitter
+          a.text-hide(href="#").blog blog
+          a.msg_download.download(href="#" style="vertical-align:text-top") DOWNLOAD
+        .disclaimer
+          ©2015 Easishare, Ltd. All Rights Reserved
+
+    script(src="bower/jquery/dist/jquery.min.js")
+    script(src="bower/jcarousel/dist/jquery.jcarousel.min.js")
+    script(src="bower/jquery-i18n-properties/jquery.i18n.properties.js")
+    script(src="js/main.js")
+    script(src="http://api.wipmania.com/jsonp?callback=detectcountry" type="text/javascript")
+

@@ -1,0 +1,22 @@
+{
+  "msg_drive": "드라이브",
+  "msg_help": "사용방법",
+  "msg_current_lang": "한국어",
+  "msg_download": "다운로드",
+  "msg_howitworks": "이지웨이 사용방법",
+  "msg_pickup": "모시러 갑니다",
+  "msg_crossingborder": "국경을 건너기",
+  "msg_dropoff": "내리기",
+  "msg_pickup_detail": "거기 계시군요. 모시러 가겠습니다.",
+  "msg_crossingborder_detail": "목적지까지 편히 앉아계세요.",
+  "msg_dropoff_detail": "목적지에 내리시면 됩니다.",
+  "msg_carousel_title_1": "편한 왕래",
+  "msg_carousel_title_2": "쉬운 예약",
+  "msg_carousel_title_3": "간편한 결제",
+  "msg_carousel_detail_1": "이지웨이로 홍콩과 심천을 쉽게 왕래할 수 있습니다.",
+  "msg_carousel_detail_2": "출발 날짜와 장소만 선택하세요.<br>전속 기사가 제 시간에 모시러 가겠습니다.",
+  "msg_carousel_detail_3": "이지웨이는 다양한 결제수단을 제공합니다.",
+  "msg_howitworks_detail": "간단히 예약만 하세요. 이지웨이 밴이 홍콩-심천간 어디든지 원하는 곳으로 예약한 시각에 문앞까지 모시러 가겠습니다.",
+  "msg_fare_warning": "요금은 지역 및 거리에 따라 다를 수 있습니다. 아래 링크를 통해 자세한 사항을 확인하세요.",
+  "msg_fare_table": "요금표"
+}

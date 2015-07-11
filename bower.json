@@ -1,0 +1,23 @@
+{
+  "name": "easiway-teaser",
+  "version": "0.0.0",
+  "authors": [
+    "Jaehwa Han <drh@easi6.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "easi6, Inc.",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jcarousel": "~0.3.3",
+    "jquery": "~2.1.4"
+  }
+}

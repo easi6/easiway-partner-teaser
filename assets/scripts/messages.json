@@ -1,0 +1,10 @@
+{
+  "msg_drive": "DRIVE",
+  "msg_help": "HELP",
+  "msg_current_lang": "English",
+  "msg_download": "DOWNLOAD",
+  "msg_howitworks": "How easiway works",
+  "msg_pickup":  "Pick up",
+  "msg_crossingborder": "Crossing border",
+  "msg_dropoff": "Drop off"
+}

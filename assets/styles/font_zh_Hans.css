@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Noto Sans Light'), local('Noto Sans Light'), local('Noto Sans Light');
+  src: url(/fonts/notosanscjk-sc-light-subset.otf) format('truetype'),
+       url(/fonts/notosanscjk-sc-light-subset.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Regular'), local('Noto Sans Regular'), local('Noto Sans Regular');
+  src: url(/fonts/notosanscjk-sc-regular-subset.otf) format('truetype'),
+       url(/fonts/notosanscjk-sc-regular-subset.woff) format('woff');
+}
+

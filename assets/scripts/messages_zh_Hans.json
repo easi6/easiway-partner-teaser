@@ -1,0 +1,22 @@
+{
+  "msg_drive": "驱动",
+  "msg_help": "帮助",
+  "msg_current_lang": "简体字",
+  "msg_download": "下载",
+  "msg_howitworks": "易路 如何工作",
+  "msg_pickup": "接客",
+  "msg_crossingborder": "过关",
+  "msg_dropoff": "到达目的地",
+  "msg_pickup_detail": "你在那.我来接你",
+  "msg_crossingborder_detail": "只需坐在车上就能通关",
+  "msg_dropoff_detail": "准备好了吗？出发！",
+  "msg_carousel_title_1": "无比便利（容易连接）",
+  "msg_carousel_title_2": "非常便利的预定系统",
+  "msg_carousel_title_3": "方便支付",
+  "msg_carousel_detail_1": "使用易路使深圳和香港的距离更短",
+  "msg_carousel_detail_2": "只需要选择日期，时间和地点<br>您的司机就会在您预定的时间地点接您",
+  "msg_carousel_detail_3": "有非常多的付款方式",
+  "msg_howitworks_detail": "只需要通过APP预定，Easiway客运服务能把你送到深圳和香港的任意角落。",
+  "msg_fare_warning": "价格根据您不同区域制定",
+  "msg_fare_table": "车费明细"
+}
